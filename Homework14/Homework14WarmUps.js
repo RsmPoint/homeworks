@@ -1,7 +1,7 @@
 
 
 // Homework warm up
-// !!! --- SCROLL DOWN FOR SOLUTIONS to check yourself --- !!!
+
 /*
 ********************************************************************
 Warm up 1
@@ -40,6 +40,8 @@ Warm up 3
 // ***************************
 // SCROLL DOWN FOR SOLUTIONS 
 // ***************************
+
+// !!! --- SCROLL DOWN FOR SOLUTIONS to check yourself --- !!!
 
 
 
