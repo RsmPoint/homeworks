@@ -90,7 +90,7 @@
         var button = document.getElementById("load-data-button");
 
         button.addEventListener("click", loadUserData);
-        // create users object 
+        // create users objects 
 
         // var john = { };
         // var rob = { };
@@ -104,9 +104,15 @@
             var selectedUser = select.value;
             console.log(selectedUser); // try it works when you press "Load data button", you should see value you selected in Select box
 
-            //If selectedUser is empty loop all inputs[] and set them to ""
+            //If selectedUser is empty loop all inputs[] and set their values to ""
+            if(!selectedUser) {
+                //...loop here
+            }
 
-            //Loop users array and check if users[i].firstName === selectedUser, if check is true, fill inputs[] with data from object
+            for(var i=0; i<users.length; i++) {
+               //Loop users array and check if users[i].firstName === selectedUser, if check is true, fill inputs[] with data from object
+            }    
+           
         }
 
     </script>
